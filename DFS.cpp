@@ -1,3 +1,4 @@
+const int MAXN=2e5+5;
 vector<int>g[MAXN];
 int vis[MAXN];
 
