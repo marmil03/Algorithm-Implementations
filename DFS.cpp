@@ -1,3 +1,14 @@
+
+//Time complexity
+/*
+Best-case:    O(|V|+|E|)??
+Average-case: O(|V|+|E|)
+Worst-case:   O(|V|+|E|)
+*/
+//Memory-Complexity: O(|V|)
+
+
+
 const int MAXN=2e5+5;
 vector<int>g[MAXN];
 int vis[MAXN];
