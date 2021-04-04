@@ -1,3 +1,11 @@
+//Time complexity
+/*
+Best-case:    O(|V|+|E|)??
+Average-case: O(|V|+|E|)
+Worst-case:   O(|V|+|E|)
+*/
+//Memory-Complexity: O(|V|)
+
 const int N=150000;
 vector<int>g[N];
 int vis[N];
