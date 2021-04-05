@@ -1,3 +1,9 @@
+//Time complexity
+/*
+O(log n)
+*/
+
+
 int binarySearch(int arr[], int l, int r, int x) 
 { 
     if (r >= l) { 
