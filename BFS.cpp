@@ -1,6 +1,6 @@
 //Time complexity
 /*
-Best-case:    O(|V|+|E|)??
+Best-case:    O(|V|+|E|)
 Average-case: O(|V|+|E|)
 Worst-case:   O(|V|+|E|)
 */
