@@ -1,5 +1,5 @@
 //UNION-FIND - Kruskal
-vector<int>parent,rank;
+vector<int>parent,size;
 
 void make_set(int v){
   parent[v]=v;
