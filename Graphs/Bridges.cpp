@@ -9,7 +9,7 @@ void dfs(int v,int p=-1){
   vis[v]=1;
   tin[v]=low[v]=timer++;
   for(auto u:g[v]){
-    if(u==v) continue;
+    if(u==p) continue;
     if(vis[u]) low[u]=min(low[v],tin[u]);
     else{
       dfs(u,v);
