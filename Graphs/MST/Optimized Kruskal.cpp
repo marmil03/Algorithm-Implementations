@@ -1,4 +1,7 @@
 //UNION-FIND - Kruskal
+
+//O(E log E)
+
 vector<int>parent,size;
 
 void make_set(int v){
