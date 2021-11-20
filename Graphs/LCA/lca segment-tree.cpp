@@ -8,7 +8,6 @@ struct LCA {
 		height.resize(n);
 		first.resize(n);
 		euler.reserve(n);
-		segtree.resize(2*n);
 		visited.assign(n,false);
 		dfs(g,root);
 		int m=euler.size();
