@@ -40,7 +40,7 @@ struct LCA {
 
 	int query(int node,int b,int e,int l,int r){
 		if(b>r || e<l) return -1;
-		if(b>=l && r<=r) return segtree[node];
+		if(b>=l && en<=r) return segtree[node];
 		int mid=(b+e)>>1;
 
 		int left=query(node<<1,b,mid,l,r);
